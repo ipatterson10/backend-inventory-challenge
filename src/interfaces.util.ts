@@ -36,6 +36,7 @@ export interface inventoryUpdate {
 
 export interface skuBatchUpdate {
   skuBatchId: string;
+  skuId: string | null;
   updates: inventoryUpdate[];
 }
 

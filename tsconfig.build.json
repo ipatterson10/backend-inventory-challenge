@@ -19,7 +19,9 @@
     "resolveJsonModule": true,
     "pretty": true,
     "strict": true,
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "outDir": "dist/"
   },
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

@@ -1,9 +1,7 @@
 {
   "extends": "./tsconfig.build",
-  "exclude": [
-    "**/dist"
-  ],
+  "exclude": ["**/dist"],
   "compilerOptions": {
-    "noEmit": true,
+    "noEmit": true
   }
 }
